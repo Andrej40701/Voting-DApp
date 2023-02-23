@@ -50,7 +50,7 @@
   "sourceMap": "25:352:1:-;;;72:10;49:33;;;;;;;;;;;;;;;;;;;;25:352;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:352:1;;;;;;;",
   "deployedSourceMap": "25:352:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;86:36;;8:9:-1;5:2;;;30:1;27;20:12;5:2;86:36:1;;;;;;;;;;;;;;;;;;;;;;;49:33;;8:9:-1;5:2;;;30:1;27;20:12;5:2;49:33:1;;;;;;;;;;;;;;;;;;;;;;;;;;;272:103;;8:9:-1;5:2;;;30:1;27;20:12;5:2;272:103:1;;;;;;;;;;;;;;;;;;;;;;;;;;86:36;;;;:::o;49:33::-;;;;;;;;;;;;;:::o;272:103::-;184:5;;;;;;;;;;;170:19;;:10;:19;;;155:101;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;361:9;334:24;:36;;;;272:103;:::o",
   "source": "pragma solidity ^0.4.2;\n\ncontract Migrations {\n  address public owner = msg.sender;\n  uint public last_completed_migration;\n\n  modifier restricted() {\n    require(\n      msg.sender == owner,\n      \"This function is restricted to the contract's owner\"\n    );\n    _;\n  }\n\n  function setCompleted(uint completed) public restricted {\n    last_completed_migration = completed;\n  }\n}",
-  "sourcePath": "C:\\Users\\Andrej\\Desktop\\Voting-DApp\\contracts\\Migrations.sol",
+  "sourcePath": "C:\\Users\\Andrej\\Desktop\\Andrej\\ФИНКИ\\VIII семестар\\Блоковски вериги и криптовалути\\Проектна задача\\Voting-DApp\\contracts\\Migrations.sol",
   "ast": {
     "absolutePath": "project:/contracts/Migrations.sol",
     "exportedSymbols": {
@@ -913,12 +913,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x5D46a7f15Fb2043012bd366bdDEbe0fF330793aa",
-      "transactionHash": "0xdcf56807b1f22d23bb3154a795a7b5c49ee00d32984eb2ecba636d1d0bfdfdba"
+      "address": "0x3750cfA6702E5e898a03110D8eB26fea5DD12cFC",
+      "transactionHash": "0xc18e851aa67b811641f165485306c0d1b1cbbf02aea9fad5426407440b9abfcf"
     }
   },
   "schemaVersion": "3.4.11",
-  "updatedAt": "2023-01-14T18:05:37.003Z",
+  "updatedAt": "2023-02-23T21:57:20.731Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
